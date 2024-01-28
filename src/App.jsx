@@ -6,6 +6,7 @@ import {Route,Routes} from 'react-router-dom'
 import Skills from './Components/Skills'
 import Contacts from './Components/Contacts'
 import Projects from './Components/Projects'
+import PageNotFound from './Components/PageNotFound';
 
 const darkTheme = createTheme({
   palette: {
@@ -26,6 +27,9 @@ export default function App() {
           <Route path='/skills' element={<Skills/>}/>
           <Route path='/Projects' element={<Projects/>}/>
           <Route path='/contacts' element={<Contacts/>}/>
+          <Route path='/contacts' element={<Contacts/>}/>
+          <Route path='*' element={<PageNotFound/>}/>
+
       </Routes> 
       </section>
     </ThemeProvider>
