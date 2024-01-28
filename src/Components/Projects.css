@@ -1,0 +1,12 @@
+.col-3{
+    width: 300px;
+    height:auto;
+    overflow: hidden;
+    color: black;
+  }
+    
+  .col-3:hover   {
+    transform: scale(1.08);
+  }
+  
+  
